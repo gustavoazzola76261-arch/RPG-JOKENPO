@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Resultado</title>
+</head>
+<body>
+
+<h1>🏆 Resultado da Batalha</h1>
+
+<p>
+    <strong th:text="${j1.nome}"></strong> <br>
+    Vida restante: <span th:text="${j1.vida}"></span>
+</p>
+
+<p>
+    <strong th:text="${j2.nome}"></strong> <br>
+    Vida restante: <span th:text="${j2.vida}"></span>
+</p>
+
+<a href="/">Nova batalha</a>
+
+</body>
+</html>

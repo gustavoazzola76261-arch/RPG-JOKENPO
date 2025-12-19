@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Jogo de Batalha</title>
+</head>
+<body>
+
+<h1>⚔ Jogo de Batalha ⚔</h1>
+
+<form action="/batalhar" method="post">
+
+    <h3>Jogador 1</h3>
+    <input type="text" name="nome1" placeholder="Nome">
+    <select name="classe1">
+        <option>Guerreiro</option>
+        <option>Arqueiro</option>
+        <option>Mago</option>
+    </select>
+    <input type="text" name="extra1" placeholder="Arma / Flecha / Magia">
+
+    <h3>Jogador 2</h3>
+    <input type="text" name="nome2" placeholder="Nome">
+    <select name="classe2">
+        <option>Guerreiro</option>
+        <option>Arqueiro</option>
+        <option>Mago</option>
+    </select>
+    <input type="text" name="extra2" placeholder="Arma / Flecha / Magia">
+
+    <br><br>
+    <button type="submit">Iniciar Batalha</button>
+</form>
+</body>
+</html>
